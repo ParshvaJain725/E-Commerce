@@ -24,7 +24,7 @@ export const productSlice = createSlice({
           ...state.cartItem,
           { ...action.payload, qty: 1, total: total },
         ];
-      }
+      } 
     },
     deleteCartItem: (state, action) => {
       toast("one Item Delete");

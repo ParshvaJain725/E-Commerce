@@ -45,7 +45,7 @@ const Home = () => {
             />
           </div>
           <h2 className="text-4xl md:text-7xl font-bold py-3">
-            The Fasted Delivery in{" "}
+            The Fasted Delivery at{" "}
             <span className="text-red-600 text-">Your Home</span>
           </h2>
           <p className="py-3 text-base ">
