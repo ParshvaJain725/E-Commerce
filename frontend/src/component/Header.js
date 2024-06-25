@@ -28,14 +28,14 @@ const Header = () => {
       <div className="flex items-center h-full justify-between">
         <Link to={""}>
           <div className="h-10">
-            <img src={logo} className="h-full" />
+            <img src="https://img.freepik.com/free-vector/delivery-service-illustrated_23-2148505081.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1719273600&semt=ais_user" className="h-full" />
           </div>
         </Link>
 
         <div className="flex items-center gap-4 md:gap-7">
           <nav className="gap-4 md:gap-6 text-base md:text-lg hidden md:flex">
             <Link to={""}>Home</Link>
-            <Link to={"menu/63f0fdbb3bcc2f97fa53d25d"}>Menu</Link>
+            {/* <Link to={"menu/63f0fdbb3bcc2f97fa53d25d"}>Menu</Link> */}
             <Link to={"about"}>About</Link>
             <Link to={"contact"}>Contact</Link>
           </nav>
