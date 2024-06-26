@@ -44,18 +44,14 @@ const Home = () => {
               className="h-7"
             />
           </div>
-          <h2 className="text-4xl md:text-7xl font-bold py-3">
-            The Fasted Delivery at{" "}
-            <span className="text-red-600 text-">Your Home</span>
+          <h2 className="text-3xl md:text-7xl font-bold py-3">
+            The Fastest Delivery at{" "}
+            <span className="text-red-600 text-">Vegan Store</span>
           </h2>
-          <p className="py-3 text-base ">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries
+          <p className="py-3 text-base text-4xl ">
+          Welcome To Vegan Store, Where Every Meal Is A Culinary Masterpiece Delivered Straight To Your Door. Explore A World Of Flavors With Our Diverse Menu, Curated From The Finest Ingredients And Prepared By Top Chefs. Order Now And Indulge In The Delight Of Exceptional Food, Made Just For You.
           </p>
-          <button className="font-bold bg-red-500 text-slate-200 px-4 py-2 rounded-md">
+          <button className="font-bold bg-red-500 text-slate-200 px-4 py-2 rounded-md text-3xl">
             Order Now
           </button>
         </div>
