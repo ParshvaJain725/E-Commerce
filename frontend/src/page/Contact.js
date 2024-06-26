@@ -91,13 +91,13 @@ const Contact = () => {
         <h3>Quick Links</h3>
         <ul>
             <li><a href="/home">Home</a></li>
-            <li><a href="/about">our's special</a></li>
-            <li><a href="/home">popular foods</a></li>
-            <li><a href="/contact">customer reviews</a></li>
+            <li><a href="/about">Our's special</a></li>
+            <li><a href="/home">Popular foods</a></li>
+            <li><a href="/contact">Customer reviews</a></li>
         </ul>
     </div>
     <div class="footer-content">
-        <h3>Follow Us</h3>
+        <h3>Follow Me</h3>
         <ul class="social-icons">
             <li><a href="https://www.instagram.com/parshvaaa.jain/?igsh=MWJ5MHR6M25oamJicw%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://www.linkedin.com/in/parshva-jain-507771239/"><i class="fab fa-linkedin-in"></i></a></li>

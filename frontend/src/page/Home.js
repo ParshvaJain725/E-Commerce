@@ -26,15 +26,10 @@ const Home = () => {
   };
 
 
- 
-
-
-  
-
-
 
   return (
     <div className="p-2 md:p-4">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
       <div className="md:flex gap-4 py-2">
         <div className="md:w-1/2">
           <div className="flex gap-3 bg-slate-300 w-36 px-2 items-center rounded-full">
@@ -120,6 +115,46 @@ const Home = () => {
       </div>
       
       <AllProduct heading={"Your Product"}/>
+      <section class="footer">
+
+<div class="container">
+    <div class="footer-content">
+        <h3>Contact Us</h3>
+        <ul>
+            <li>Email: yuvijain701@gmail.com</li>
+            <li>Phone: +91 6355883892</li>
+            <li>Address: K-107,Abode Valley,Potheri,near SRM University Chennai-603203</li>
+        </ul>
+    </div>
+    <div class="footer-content">
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/about">Our's special</a></li>
+            <li><a href="/home">Popular foods</a></li>
+            <li><a href="/contact">Customer reviews</a></li>
+        </ul>
+    </div>
+    <div class="footer-content">
+        <h3>Follow Me</h3>
+        <ul class="social-icons">
+            <li><a href="https://www.instagram.com/parshvaaa.jain/?igsh=MWJ5MHR6M25oamJicw%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/parshva-jain-507771239/"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://wa.me/+916355883892"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="https://github.com/ParshvaJain725"><i class="fab fa-github"></i></a></li>
+         
+
+        </ul>
+    </div>
+</div>
+
+
+<h1 class="credit">
+    created by <span><a href="https://github.com/ParshvaJain725">Parshva Jain</a></span> | all rights are reserved
+</h1>
+</section>
+
+<a href="home" class="fas fa-angle-up" id="scroll-top"></a>
     </div>
   );
 };

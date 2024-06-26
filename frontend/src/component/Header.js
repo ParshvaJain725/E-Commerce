@@ -27,8 +27,9 @@ const Header = () => {
 
       <div className="flex items-center h-full justify-between">
         <Link to={""}>
-          <div className="h-10">
+          <div className="h-10 flex gap-4">
             <img src="https://img.freepik.com/free-vector/delivery-service-illustrated_23-2148505081.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1719273600&semt=ais_user" className="h-full" />
+          <Link to={"/"}> <p className="py-2 text-red-600">VEGAN STORE</p> </Link>
           </div>
         </Link>
 
