@@ -25,8 +25,8 @@ const About = () => {
     <div>
     <section class="home" id="home">
     <div class="content">
-        <h3>Vegan Store</h3>
-        <p>Welcome to Vegan Store, where every meal is a culinary masterpiece delivered straight to your door.
+        <h3>Tasty Cart</h3>
+        <p>Welcome to Tasty Cart, where every meal is a culinary masterpiece delivered straight to your door.
             Explore a world of flavors with our diverse menu, curated from the finest ingredients and prepared by
             top chefs. Whether you're craving gourmet cuisine, comforting classics, or exotic dishes, SavorDelight
             promises a dining experience that's always fresh, delicious, and convenient. Order now and indulge in

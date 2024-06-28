@@ -41,10 +41,10 @@ const Home = () => {
           </div>
           <h2 className="text-3xl md:text-7xl font-bold py-3">
             The Fastest Delivery at{" "}
-            <span className="text-red-600 text-">Vegan Store</span>
+            <span className="text-red-600 text-">Tasty Cart</span>
           </h2>
           <p className="py-3 text-base text-4xl ">
-          Welcome To Vegan Store, Where Every Meal Is A Culinary Masterpiece Delivered Straight To Your Door. Explore A World Of Flavors With Our Diverse Menu, Curated From The Finest Ingredients And Prepared By Top Chefs. Order Now And Indulge In The Delight Of Exceptional Food, Made Just For You.
+          Welcome To Tasty Cart, Where Every Meal Is A Culinary Masterpiece Delivered Straight To Your Door. Explore A World Of Flavors With Our Diverse Menu, Curated From The Finest Ingredients And Prepared By Top Chefs. Order Now And Indulge In The Delight Of Exceptional Food, Made Just For You.
           </p>
           <button className="font-bold bg-red-500 text-slate-200 px-4 py-2 rounded-md text-3xl">
             Order Now
