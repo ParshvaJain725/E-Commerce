@@ -7,6 +7,7 @@ import { ImagetoBase64 } from "../utility/ImagetoBase64";
 import { toast } from "react-hot-toast";
 
 function Signup() {
+  
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
@@ -56,6 +57,7 @@ console.log(process.env.REACT_APP_SERVER_DOMIN)
       if (password === confirmPassword) {
     
           const fetchData = await fetch(`${process.env.REACT_APP_SERVER_DOMAIN}/signup`,{
+            
             method : "POST",
             headers : {
               "content-type" : "application/json"
