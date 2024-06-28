@@ -3,7 +3,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv").config();
 const Stripe = require('stripe')
-const bodyParser = require("body-parser");
+const bodyParser = require("body-parser")
 
 
 const app = express();
@@ -111,7 +111,7 @@ app.post("/uploadProduct",async(req,res)=>{
 //
 app.get("/product",async(req,res)=>{
   const data = await productModel.find({})
-  res.send(JSON.stringify(data))
+  res.send(data)
 })
  
 /*****payment getWay */
